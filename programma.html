@@ -1,0 +1,1219 @@
+
+<!DOCTYPE html>
+
+<html lang="it">
+<head>	 
+	<meta name="description" content="Il programma della CISF 2017 - Conferenza Italiana Studenti di Fisica: Bari, 11-13 Maggio 2017." />
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+ 
+   <meta name="keywords" content="CISF 2017 Bari studenti fisica aisf" />
+	
+	
+	<!-- Generato con http://realfavicongenerator.net/ -->
+	<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="favicons/manifest.json">
+	<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="favicons/favicon.ico">
+	<meta name="msapplication-config" content="favicons/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+
+    <!-- facebook open graph starts from here, if you don't need then delete open graph related  -->
+    <meta property="og:title" content="Conferenza Italiana Studenti di Fisica 2017" />
+    <meta property="og:url" content="https://www.ai-sf.it/cisf2017" />
+    <meta property="og:locale" content="it_IT" />
+    <meta property="og:site_name" content="CISF 2017" />
+    <!--meta property="fb:admins" content="" /-->  <!-- use this if you have  -->
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/img/logo-1022-326.png" /> <!-- when you post this page url in facebook , this image will be shown -->
+    <!-- facebook open graph ends from here -->
+  
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  
+  <link rel="stylesheet" type="text/css" href="css/mystyle.css" media="screen,projection"/>
+  
+
+  <!-- Footer style -->
+<style>
+	.footer-copyright	{padding:0 2%;font-size:2.3vw;}
+	@media all and (min-width: 601px){.footer-copyright	{font-size:14px;}}
+</style>
+
+	<title>Programma - CISF 2017</title>
+	
+	<style>
+	/*   Tabella programma   */
+	.table_hour
+	{
+		padding: 2px 5px;
+		color:#00bfa5;
+		font-weight: bold;
+		display: table-cell;
+	}
+	.table_description
+	{
+		color:#212121;
+		display: table-cell;
+		position: relative;
+		left: 5px;
+		/*top:9px;*/
+	}
+	.table_description ul {position:relative;left: 25px;}
+	.table_description li {list-style-type: square!Important}
+	
+	/*  Programma  */	
+	#ProgrammaCarousel .indicators{top:0;bottom:auto;}
+	#ProgrammaCarousel .indicator-item {margin-top:18px;transition: transform 0.5s;-webkit-transition: transform 0.5s;-moz-transition: transform 0.5s;}
+	#ProgrammaCarousel .indicator-item .indicator-tooltip{display:inline;visibility:hidden;cursor:auto;transform:scale(0);position:absolute;background:rgba(55,71,79,0.7); right:30px;top:-8px;font-size:1.1em; color:white; border-radius:5px;padding-left:8px;padding-right:8px;
+															transition: transform 0.4s;-webkit-transition: transform 0.4s;-moz-transition: transform 0.4s;}
+	#ProgrammaCarousel .indicator-item:hover .indicator-tooltip{visibility:visible;transform:none}
+	#ProgrammaCarousel .indicator-item:hover{transform: translateY(-2px)}
+	#ProgrammaCarousel .left-button{top: 20px; bottom:auto;left:20px;right:auto;transition: transform 0.8s;-webkit-transition: transform 0.8s;-moz-transition: transform 0.8s;}
+	#ProgrammaCarousel .left-button:hover{transform: translateX(-2px)}
+	#ProgrammaCarousel .right-button{top: 20px; bottom:auto;right:20px;left:auto;transition: transform 0.8s;-webkit-transition: transform 0.8s;-moz-transition: transform 0.8s;}
+	#ProgrammaCarousel .right-button:hover{transform: translateX(2px)}
+	.my-collapsible-body { background: rgba(255, 255, 255, 0.7) }
+	.my-carousel-body {	padding-top:1.5%;padding-left:5%;padding-right:5%;}
+	.my-carousel-content{margin:35px 0;	}
+	.ProgrammaCarouselTitle	{font-size:1.5em;font-weight: bold;	color:white;}
+	#giornataExtraImg{width:40%;margin-right:2%;}
+	@media only screen and (max-width: 750px) {#giornataExtraImg{width:100%;margin-bottom:2%;}}
+	#giornataExtraImg:hover	{opacity: 0.80;	filter: alpha(opacity=80%); /* For IE8 and earlier */}	
+	
+	/*  Liste relatori e laboratori */
+	.collection-item				{cursor: pointer;min-height:60px!important;overflow:hidden!important;}	
+	.collection-header				{font-size: 1.3em!important;font-weight:bold!important}	
+	.collection-item .titolo		{transition: all 0.5s;-webkit-transition: all 0.5s}
+	.collection-item .titolo:hover	{font-size: 1.3em!important;}
+	.collection-item .titolo		{font-size: 1.1em!important;vertical-align: middle!important;}	
+	.collection-item	img			{transition: all 0.5s;-webkit-transition: all 0.5s}	
+	.collection-item img:hover		{transform:scale(1.1,1.1)}
+	
+	/*   Sessioni  */
+	.titoloSessione	{font-size: 1.3em!important;font-weight:bold!important;text-align: center}
+	.testoSessione	{font-size:1.1em!important;text-align: justify!important}
+	
+	/*   Box ringraziamenti  */
+	.titoloRingraziamenti	{font-size: 1.3em!important;font-weight:bold!important;text-align: center}
+	.testoRIngraziamenti	{font-size:1.1em!important;text-align: justify!important}
+	
+	/*   Carte relatori */
+	#RelatoriCards .modal				{box-shadow: none !important;background-color: transparent !important;}
+	#RelatoriCards .modal-content		{padding: 0 !important;}
+	#RelatoriCards .titolo				{text-align:center;width:100%;margin-bottom:1%;font-size:2em;font-weight:bold}
+	#RelatoriCards .imgBox				{float:left; width:25%;min-width:120px;height:auto; margin-right:3%;margin-bottom:1%;text-align: center;}
+	#RelatoriCards .imgBox img			{width:100%;height:auto;}
+	#RelatoriCards .modal-header-text	{text-align:justify;font-size: 1.2em;margin-top:0}
+	#RelatoriCards .modal-body-text		{text-align:justify;}
+	#RelatoriCards .modal-close-button	
+	{
+		font-size:1.5em;
+		position: absolute;
+		color:#00838f;
+		background-color: transparent;
+		border:none;
+		border-radius:50%;
+	}
+	
+	/*   Carte talks */
+	#TalkCards .modal				{box-shadow: none !important;background-color: transparent !important;}
+	#TalkCards .modal-content		{padding: 0 !important;}
+	#TalkCards .titolo				{text-align:center;width:100%;margin-bottom:1%;font-size:1.8em;font-weight:bold}
+	#TalkCards .modal-header-text	{text-align:center;font-size: 1.5em;margin-top:0}
+	#TalkCards .modal-body-text		{text-align:justify;font-size: 1.3em;padding-left:2%;padding-right:2%;}
+	#TalkCards .modal-close-button	
+	{
+		font-size:1.5em;
+		position: absolute;
+		color:#00838f;
+		background-color: transparent;
+		border:none;
+		border-radius:50%;
+	}
+	
+	</style>
+ 
+  
+</head>
+<body>
+
+
+
+
+
+<div class="navbar-fixed">
+  <nav role="navigation" id="navbar">
+	<div class="nav-wrapper">
+				<a href="index.html" class="brand-logo" style="margin:5px 6%">					
+			<img  src="img/logo-small.png" id="navbarLogo" height="50" width="157">				
+		</a>
+			
+		<ul class="right hide-on-med-and-down" style="margin-right:5%">
+			<li><a href="programma.html">Programma</a></li>
+			<li><a href="booklet.pdf">Booklet</a></li>
+			<li><a href="luoghi.html">Luoghi</a></li>
+			<li><a href="https://ai-sf.it/" target="_blank">AISF</a></li>
+			<li><a href="#sponsorLogoBox">Sponsors</a></li>
+			<li><a href="chi-siamo.html">Chi siamo</a></li>
+		</ul>
+		
+		<div style="margin-left:2%">
+			<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+		</div>
+	</div>
+  </nav>
+</div>
+
+<ul id="nav-mobile" class="side-nav">
+	<li><a href="programma.html">Programma</a></li>
+	<li><a href="booklet.pdf">Booklet</a></li>
+	<li><a href="luoghi.html">Luoghi</a></li>
+	<li><a href="https://ai-sf.it/" target="_blank">AISF</a></li>
+	<li><a href="#sponsorLogoBox">Sponsors</a></li>
+	<li><a href="chi-siamo.html">Chi siamo</a></li>
+</ul>
+<script>
+document.addEventListener(
+							"DOMContentLoaded",
+							function(e) {
+										$('.button-collapse').sideNav({
+												  closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+												  draggable: true // Choose whether you can drag to open on touch screens
+																		});
+										}
+						);
+  
+</script>	
+<div class="container">
+
+	<div class="pageTitle center">Programma della CISF 2017</div>	
+	
+	<div class="pageSubtitleDescription">
+		Qui troverai le informazioni su come si svolgeranno le giornate della CISF 2017!
+	</div>	
+    <!--   Sezione del programma   -->
+	<div class="row">
+			<div class="carousel carousel-slider z-depth-4" data-indicators="true" id="ProgrammaCarousel">
+				
+				<div class="left-button carousel-fixed-item">
+					<a class="btn-floating waves-effect waves-light bar-color" onclick="$('.carousel').carousel('prev');"><i class="material-icons">navigate_before</i></a>
+				</div>
+				<div class="right-button carousel-fixed-item">
+					<a class="btn-floating waves-effect waves-light bar-color" onclick="javascript:$('.carousel').carousel('next');"><i class="material-icons">navigate_next</i></a>					
+				</div>
+				
+					<div class="carousel-item #26a69a teal lighten-1 black-text">
+						<div class="my-carousel-content">
+							<div class="center"><span class="ProgrammaCarouselTitle">Giovedì 11 maggio</span></div>
+							<div class="my-carousel-body">
+							
+								<ul class="collapsible popout" data-collapsible="expandable">
+									<li>
+									  <div class="collapsible-header"><i class="material-icons">free_breakfast</i>Mattina</div>
+									  <div class="collapsible-body my-collapsible-body">
+										<table class="highlight">
+
+											<tbody>
+												<tr>
+												<td>
+													<div class="table_hour">11:00</div>
+													<div class="table_description">Registrazione presso il Dipartimento Interateneo di Fisica "M. Merlin"</div>
+												</td>
+												</tr>
+												
+												
+											</tbody>
+										</table>
+										
+									
+									  </div>
+									</li>
+									<li>
+									  <div class="collapsible-header"><i class="material-icons">room_service</i>Pomeriggio</div>
+									  <div class="collapsible-body  my-collapsible-body">
+										<table class="highlight">
+
+											<tbody>
+												
+												<tr>
+													<td>
+														<div class="table_hour">13:30</div>
+														<div class="table_description">
+															Apertura della Conferenza in Aula A; intervengono:
+															<ul>
+																<li><a href="#" onclick="$('#relatoreSN').modal('open');">Salvatore Vitale Nuzzo</a>, Direttore del Dipartimento Interateneo di Fisica di Bari;</li>
+																<li><a href="#" onclick="$('#relatoreDD').modal('open');">Domenico Di Bari</a>, Coordinatore dei Corsi di Laurea in Fisica;</li>
+																<li><a href="#" onclick="$('#relatoreMDe').modal('open');">Mauro De Palma</a>, Direttore della sezione INFN di Bari.</li>
+															</ul>
+														</div>
+													</td>
+												</tr>
+											  
+												<tr>
+													<td>
+														<div class="table_hour">14:00</div>
+														<div class="table_description">AISF: CHI SIAMO</div>
+													</td>
+												</tr>
+											  
+												<tr>
+													<td>
+														<div class="table_hour">15:30</div>
+														<div class="table_description">Sessione di Visita dei laboratori</div>
+													</td>
+												</tr>
+												
+												<tr>
+													<td>
+														<div class="table_hour">17:30</div>
+														<div class="table_description">Coffee Break</div>
+													</td>
+												</tr>
+												
+												<tr>
+													<td>
+														<div class="table_hour">18:00</div>
+														<div class="table_description">Sessioni Parallele nelle aule A, B, C</div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<div class="table_hour">20:30</div>
+														<div class="table_description">Cena presso il Dipartimento</div>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									  
+									  </div>
+									</li>
+							
+								</ul>    
+							</div>
+						</div>				 
+					</div>
+					<div class="carousel-item #009688 teal black-text">
+						<div class="my-carousel-content">
+							<div class="center"><span class="ProgrammaCarouselTitle">Venerdì 12 maggio</span></div>
+							<div class="my-carousel-body">
+								<ul class="collapsible popout" data-collapsible="expandable">
+									<li>
+									  <div class="collapsible-header"><i class="material-icons">free_breakfast</i>Mattina</div>
+									  <div class="collapsible-body my-collapsible-body">
+										<table class="highlight">
+
+											<tbody>
+												<tr>
+													<td>
+														<div class="table_hour">9:30</div>
+														<div class="table_description">Sessione di Visita dei Laboratori</div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<div class="table_hour">11:00</div>
+														<div class="table_description">Coffee Break</div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<div class="table_hour">11:30</div>
+														<div class="table_description">Sessione di Visita dei Laboratori</div>
+													</td>
+												</tr>
+											</tbody>
+										</table>										
+									  </div>
+									</li>
+									<li>
+										  <div class="collapsible-header"><i class="material-icons">room_service</i>Pomeriggio</div>
+										  <div class="collapsible-body  my-collapsible-body">
+											<table class="highlight">
+
+												<tbody>
+													<tr>
+														<td>
+															<div class="table_hour">12:30</div>
+															<div class="table_description">Pranzo presso il Dipartimento</div>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<div class="table_hour">14:00</div>
+															<div class="table_description">Partenza in pullman per la <a href="http://www.sitael.com/">Sitael</a>/<a href="http://www.planetek.it/">Planetek</a>/<a href="http://www.masmec.org/">Masmec</a></div>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<div class="table_hour">15:00</div>
+															<div class="table_description">Visita <a href="http://www.sitael.com/">Sitael</a>/<a href="http://www.planetek.it/">Planetek</a>/<a href="http://www.masmec.org/">Masmec</a></div>
+														</td>
+													</tr>												  
+													<tr>
+														<td>
+															<div class="table_hour">18:30</div>
+															<div class="table_description">Partenza in pullman per Polignano a Mare (serata libera)</div>
+														</td>
+													</tr>												  
+													<tr>
+														<td>
+															<div class="table_hour">23:30</div>
+															<div class="table_description">Ritorno in pullman</div>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										  
+										  </div>
+									</li>
+									
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item #00897b teal darken-1 black-text">
+						<div class="my-carousel-content">
+							<div class="center"><span class="ProgrammaCarouselTitle">Sabato 13 maggio</span></div>			
+						
+							<div class="my-carousel-body">
+								<ul class="collapsible popout" data-collapsible="expandable">
+									<li>
+									  <div class="collapsible-header"><i class="material-icons">free_breakfast</i>Mattina</div>
+									  <div class="collapsible-body my-collapsible-body">
+										<table class="highlight">
+
+											<tbody>
+												<tr>
+													<td>
+														<div class="table_hour">9:00</div>
+														<div class="table_description">
+															Sessione Plenaria (Invited Talks)															
+															<ul>
+																<li><a href='#' onclick="$('#relatoreMaD').modal('open');">Prof. Dabbicco</a><br>“<a title="Abstract" href='#' onclick="$('#talkMaD').modal('open');">MAN- Materiali Avanzati e Nanotecnologie (per l’uomo)</a>”</li>
+																<li><a href='#' onclick="$('#relatoreMP').modal('open');">Dr. Pappagallo</a><br>“<a title="Abstract" href='#' onclick="$('#talkMP').modal('open');">Lo zoo delle particelle si popola di cinque nuovi barioni</a>”</li>
+															</ul>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<div class="table_hour">10:30</div>
+														<div class="table_description">Coffee Break</div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<div class="table_hour">11:00</div>
+														<div class="table_description">Assemblea Generale Annuale</div>
+													</td>
+												</tr>
+											</tbody>
+										</table>										
+									  </div>
+									</li>
+									<li>
+										  <div class="collapsible-header"><i class="material-icons">room_service</i>Pomeriggio</div>
+										  <div class="collapsible-body  my-collapsible-body">
+											<table class="highlight">
+
+												<tbody>	
+													<tr>
+														<td>
+															<div class="table_hour">14:00</div>
+															<div class="table_description">Pranzo in Dipartimento</div>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<div class="table_hour">15:00</div>
+															<div class="table_description">
+																Sessione Plenaria (Invited Talks)															
+																<ul>
+																	<li><a href='#' onclick="$('#relatoreNG').modal('open');">Prof. Giglietto </a><br>“<a title="Abstract" href='#' onclick="$('#talkNG').modal('open');">Astronomia Gamma con i Cherenkov Telescope Arrays</a>”</li>
+																	<li><a href='#' onclick="$('#relatoreSP').modal('open');">Prof. Pascazio</a><br>“<a title="Abstract" href='#' onclick="$('#talkSP').modal('open');">La Propagazione delle Onde</a>”</li>
+																	<li><a href='#' onclick="$('#relatoreLG').modal('open');">Prof. Guerriero</a><br>“<a title="Abstract" href='#' onclick="$('#talkLG').modal('open');">Osservazioni dallo Spazio per Clima, Ambiente e Territorio</a>”</li>
+																</ul>
+															</div>
+														</td>
+													</tr>
+													
+													<tr>
+														<td>
+															<div class="table_hour">17:00</div>
+															<div class="table_description">Coffee break</div>
+														</td>
+													</tr>												
+													<tr>
+														<td>
+															<div class="table_hour">18:30</div>
+															<div class="table_description">Poster Session in Dipartimento</div>
+														</td>
+													</tr>	
+													<tr>
+														<td>
+															<div class="table_hour">20:00</div>
+															<div class="table_description">Cena Sociale presso il ristorante <a href="http://www.urban.bio/">Urban</a></div>
+														</td>
+													</tr>													
+													
+												</tbody>
+											</table>
+										  
+										  </div>
+									</li>
+									
+								</ul>
+							</div>
+						</div>
+						
+					</div>
+					<div class="carousel-item #00796b teal darken-2 white-text">
+						<div class="my-carousel-content">
+							<div class="center"><span class="ProgrammaCarouselTitle">Domenica 14 maggio</span></div>
+							<div class="my-carousel-body" style="padding-top:3%;">
+								<div class="row">
+									<img src='img/casteldelmonte.jpg' class="left z-depth-4" id="giornataExtraImg" srcset="img/casteldelmonte.jpg 600w, img/casteldelmonte0.5x.jpg 300w">									
+									Per la <strong>giornata extra</strong> vorremmo portarti in uno dei posti caratteristici di Bari e in generale della Puglia 
+									(mare, Alberobello, Castel del Monte o Grotte di Castellana). <br>
+									Ti ricordiamo che questa giornata non &egrave; inclusa nella quota di partecipazione: nel caso in cui tu voglia fermarti, 
+									faccelo sapere quando compilerai il modulo di registrazione ... Soprattutto se necessiti di alloggio!!!
+									
+								</div>
+							</div>
+						</div>
+					</div>				
+			</div>  
+</div>
+	
+	<!--   Spacer   -->
+	<div style="height:3vh;" class="hide-on-med-and-down"></div>
+	
+	<div class="row scrollspy" id="boxRingraziamenti" style="display:none;">
+		<div class="card">
+			<div class="card-content">
+				<div class="card-title titoloRingraziamenti">Ringraziamenti</div>
+				<p class="testoRingraziamenti">
+					Un ringraziamento da parte di tutto il Comitato Organizzatore a chi ci ha permesso di realizzare la terza edizione della conferenza fornendoci ogni tipo di supporto necessario.
+					Un ringraziamento speciale va al <strong><a href="#" onclick="$('#relatoreMDe').modal('open');">Prof. Mauro De Palma</a></strong>, al <strong><a href="#" onclick="$('#relatoreDD').modal('open');">Prof. Domenico Di Bari</a></strong> e al <strong><a href="#" onclick="$('#relatoreSN').modal('open');">Prof. Salvatore Nuzzo</a></strong>, per aver creduto nel nostro progetto e per il contributo e la collaborazione che ci hanno offerto per l'organizzazione di CISF 2017. 
+				</p>
+			</div>
+		</div>
+	</div>
+		
+	<!--   Spacer   -->
+	<div style="height:3vh;" class="hide-on-med-and-down"></div>
+	
+	<div class="row">		
+		<!--   Lista relatori   -->
+		<div class="col s12 l7">			
+			<ul class="collection with-header z-depth-1" id="relatoriList">					
+					<li class="collection-header center">Relatori</li>
+					
+					<li class="collection-item avatar" onclick="$('#relatoreEB').modal('open');">
+					  <img src="img/Relatori/EB.jpg" alt="Elisabetta Bissaldi" class="circle">
+					  <span class="titolo">Elisabetta Bissaldi</span>	
+					</li>					
+					<li class="collection-item avatar" onclick="$('#relatoreMaD').modal('open');">
+					  <img src="img/Relatori/MaD.jpg" alt="Maurizio Dabbicco" class="circle">
+					  <span class="titolo">Maurizio Dabbicco</span>			  
+					</li>
+					<li class="collection-item avatar" onclick="$('#relatoreNG').modal('open');">
+					  <img src="img/Relatori/NG.jpg" alt="Nicola Giglietto" class="circle">
+					  <span class="titolo">Nicola Giglietto</span>			  
+					</li>	
+					<li class="collection-item avatar" onclick="$('#relatoreFG').modal('open');">
+					  <img src="img/Relatori/FG.jpg" alt="Francesco Giordano" class="circle">
+					  <span class="titolo">Francesco Giordano</span>	
+					</li>
+					<li class="collection-item avatar" onclick="$('#relatoreLG').modal('open');">
+					  <img src="img/Relatori/LG.jpg" alt="Luciano Guerriero" class="circle">
+					  <span class="titolo">Luciano Guerriero</span>			  
+					</li>
+					<li class="collection-item avatar" onclick="$('#relatoreMP').modal('open');">
+					  <img src="img/Relatori/MP.jpg" alt="Marco Pappagallo" class="circle">
+					  <span class="titolo">Marco Pappagallo</span>					  
+					</li>
+					<li class="collection-item avatar" onclick="$('#relatoreSP').modal('open');">
+					  <img src="img/Relatori/SP.jpg" alt="Saverio Pascazio" class="circle">
+					  <span class="titolo">Saverio Pascazio</span>					  
+					</li>
+					<!--					
+					<li class="collection-item" style="cursor:default;text-align:center">
+					  <span style="font-size:1.25em;">In aggiornamento...</span>			  
+					</li>	
+					-->
+			</ul>
+			<ul class="collection with-header z-depth-1" id="laboratoriList">				
+					<li class="collection-header center">Laboratori di Ricerca</li>
+										
+					<li class="collection-item avatar" onclick="$('#relatoreRB').modal('open');">
+					  <img src="img/Relatori/RB.jpg" alt="Roberto Bellotti" class="circle">
+					  <span class="titolo">Roberto Bellotti</span>					  
+					</li>
+					<li class="collection-item avatar" onclick="$('#relatoreMD').modal('open');">
+					  <img src="img/Relatori/MD.jpg" alt="Milena D'Angelo" class="circle">
+					  <span class="titolo">Milena D'Angelo</span>	
+					</li>					
+					<li class="collection-item avatar" onclick="$('#relatoreGS').modal('open');">
+					  <img src="img/Relatori/GS.jpg" alt="Gaetano Scamarcio" class="circle">
+					  <span class="titolo">Gaetano Scamarcio</span>					  
+					</li>
+					<li class="collection-item avatar" onclick="$('#relatoreVS').modal('open');">
+					  <img src="img/Relatori/VS.jpg" alt="Vincenzo Spagnolo" class="circle">
+					  <span class="titolo">Vincenzo Spagnolo</span>			  
+					</li>	
+					<!--
+					<li class="collection-item" style="cursor:default;text-align:center">
+					  <span style="font-size:1.25em;">In aggiornamento...</span>			  
+					</li>
+					-->
+			</ul>
+		</div>
+		<!--   Sessioni  -->
+		<div class="col s12 l5">
+			<div class="row">
+				<div class="col s12 m4 l12">
+					<div class="card">
+						<div class="card-content">
+							<div class="card-title titoloSessione">Sessione Plenaria</div>
+							<p class="testoSessione">
+								I vari ambiti della ricerca condotta presso il Dipartimento Interateneo di Fisica di Bari saranno presentati da professori e ricercatori, 
+								che svolgeranno seminari sulle tematiche pi&ugrave; innovative ed interessanti di diversi settori. Si spazier&agrave; dalla Fisica Teorica 
+								alle connessioni interdisciplinari e dalla Fisica della Materia a quella Particellare ed Astroparticellare, in una serie di incontri da non perdere.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col s12 m4 l12">
+					<div class="card">
+						<div class="card-content">
+							<div class="card-title titoloSessione">Sessione Parallela</div>
+							<p class="testoSessione">
+								Tutti gli iscritti sono invitati a farsi avanti con il proprio seminario durante la sessione parallela. 
+								Non perdete quest’occasione di mettervi in gioco e di presentare ai soci AISF gli argomenti che più vi appassionano.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col s12 m4 l12">
+					<div class="card">
+						<div class="card-content">
+							<div class="card-title titoloSessione">Sessione Poster</div>
+							<p class="testoSessione">
+								La novit&agrave; di questa edizione consiste nella possibilit&agrave;, per ciascun partecipante, 
+								di esporre al pubblico un poster che illustri un proprio lavoro, quale può essere una particolare ricerca 
+								o una tesi, o ancora un’esperienza di laboratorio. 
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+ </div>
+ 
+ <!--   Cards dei relatori  -->
+ <div id="RelatoriCards">	 
+	 <div id="relatoreGS" class="modal">
+		<div class="modal-content">		
+			<button onclick="$(this).parents('.modal').modal('close')" class="modal-close-button">X</button>
+			<div class="card-panel teal accent-4">
+					<div class="flow-text titolo"><small style="font-weight:normal">Prof. </small>Gaetano Scamarcio</div>
+					<div class="imgBox"><img class="circle z-depth-4" src="img/Relatori/GS.jpg" alt="Gaetano Scamarcio"></div>					
+					<p class="modal-header-text">
+						Svolge attività di ricerca nell’ambito della <strong>fotonica</strong>, dell’<strong>optoelettronica</strong> e della <strong>sensoristica</strong>, con particolare attenzione allo studio di nuovi fenomeni fisici ed alle applicazioni tecnologiche di dispositivi basati su nanotecnologie. 
+						In particolare, laser a cascata quantica, emettitori infrarossi e terahertz a semiconduttore, sistemi spettroscopici a microsonda, microscopia in campo prossimo, sensori a transistor organici biofunzionalizzati.  
+						E’ autore di più di 236 pubblicazioni (ISI) ed è co-inventore di 7 brevetti, fra cui quello del laser a cascata quantica a super-reticolo.
+					</p>
+					<div class="divider"></div>
+				  <p class="modal-body-text">				
+					Gaetano Scamarcio ha conseguito il dottorato di ricerca in Fisica nel 1989 e dal 2002 &egrave; professore ordinario di Fisica 
+					sperimentale presso l’Universit&agrave; degli Studi di Bari "Aldo Moro". Dal 2005 &egrave; responsabile della Unit&agrave; di Bari dell’Istituto di 
+					Fotonica e Nanotecnologie del CNR. E’ coordinatore del dottorato di ricerca in Fisica (cicli 26°-30°). 
+					E’ stato ricercatore presso il Max-Planck-Institut per la Fisica dello Stato Solido di Stoccarda (1989-1990); 
+					visiting scientist presso i Bell Laboratories dell’AT&amp;T, poi Lucent Technologies, Murray Hill, NJ, USA (1994-96, 2000, 2001);
+					guest scientist presso il Walter-Schottky-Institut di Monaco (1991) e professore invitato presso l’Universit&agrave; di Parigi 7 (2006).
+					E’ stato presidente del Distretto Tecnologico per la Meccatronica MEDIS (2011-14) e componente del CdA dalla fondazione (2007-11). 
+					E’ stato componente dell'Organismo di coordinamento e gestione del Cluster Tecnologico Nazionale "Fabbrica Intelligente" (2012-14). Ha organizzato e presieduto diverse conferenze e scuole internazionali, fra cui: 70° Course: Terahertz Science, Nanotechnologies and Applications - International School of Solid State Physics, Erice (2016); 
+					100th National Congress of the Italian Physical Society (Applied Physics Section, 2014);  11th International Conference on Intersubband Transitions in Quantum Wells (ITQW-2011); 2nd International Workshop on Quantum Cascade Lasers (2006). E’ stato insignito del Premio di Operosit&agrave; Scientifica della Societ&agrave; italiana di Fisica nel 1989.
+				</p>
+			</div>			
+		</div>
+	  </div>
+	  
+	  <div id="relatoreVS" class="modal">
+		<div class="modal-content">		
+			<button onclick="$(this).parents('.modal').modal('close')" class="modal-close-button">X</button>
+			<div class="card-panel teal accent-4">
+				<div class="flow-text titolo"><small style="font-weight:normal">Prof. </small>Vincenzo Spagnolo</div>
+				<div class="imgBox"><img class="circle z-depth-4" src="img/Relatori/VS.jpg" alt="Vincenzo Spagnolo"></div>
+				<p class="modal-header-text">
+					Ha svolto attivit&agrave; di ricerca nel campo dell’<strong>elettronica quantistica</strong> e <strong>tecnologia laser</strong>. 
+					I risultati scientifici più rilevanti riguardano le propriet&agrave; ottiche e termiche di laser a semiconduttori e, specie negli ultimi anni, la realizzazione di sensori ottici per la rivelazione di tracce gassose basati su <strong>spettroscopia fotoacustica</strong>. 
+					La sua produzione scientifica ammonta ad oltre 150 pubblicazioni e due capitoli di libro (> 1800 citazioni, h-index=23). Ha tenuto più di 40 tra relazioni su invito, keynote e sessioni plenarie a congressi internazionali ed &egrave; co-autore di due brevetti depositati. 
+				</p>
+				<div class="divider"></div>
+				  <p class="modal-body-text">				
+					Vincenzo Spagnolo ha conseguito la laurea in Fisica con lode nel 1991 ed il dottorato di ricerca in fisica nel 1995, 
+					entrambi presso il dipartimento di fisica dell’Universit&agrave; degli studi di Bari. 
+					Nel 2004 &egrave; stato assunto come ricercatore universitario presso il Politecnico di Bari e nel 2015 &egrave; divenuto 
+					professore Associato presso lo stesso ateneo. E’ stato responsabile di diversi progetti di ricerca e di formazione. 
+					E’ stato visiting researcher presso la Rice University di Houston nel periodo 2009-2011. 
+					E’ senior member della SPIE, società internazionale di ottica e fotonica. 
+					E’ editor delle riviste internazionali Journal of Sensors (Hindawi) e Applied Sciences (MPDI).
+				</p>
+			</div>			
+		</div>
+	  </div>
+	  
+	  <div id="relatoreMD" class="modal">
+		<div class="modal-content">		
+			<button onclick="$(this).parents('.modal').modal('close')" class="modal-close-button">X</button>
+			<div class="card-panel teal accent-4">
+				<div class="flow-text titolo"><small style="font-weight:normal">Dott.ssa </small>Milena D'Angelo</div>
+				<div class="imgBox"><img class="circle z-depth-4" src="img/Relatori/MD.jpg" alt="Milena D'Angelo"></div>  
+				<p class="modal-header-text">
+					Svolge attività di ricerca nel campo dell’<strong>imaging quantistico</strong>. 					 
+				</p>
+				<div class="divider"></div>
+				  
+				  <p class="modal-body-text">				
+					Milena D'Angelo si è laureata in Fisica presso l’Università di Bari nel 1999. 
+					Nel 2004 ha ottenuto il dottorato in Fisica dall’University of Maryland Baltimore County (Baltimore, MD-USA), dopo ha lavorato nel laboratorio di ottica quantistica del prof. Yanhua Shih, dando importanti contributi alla nascita dell’imaging quantistico. 
+					Nel 2005-06 ha lavorato come borsista Marie Curie presso il Laboratorio Europeo di Spettroscopia Nonlineare (LENS) di Firenze. 
+					Attualmente &egrave; ricercatrice in Fisica presso l’Universit&agrave; di Bari, dove ha recentemente avviato un nuovo laboratorio dedicato all’immagine e alle tecnologie quantistiche.
+				</p>
+			</div>			
+		</div>
+	  </div>
+	  
+	  <div id="relatoreMaD" class="modal">
+		<div class="modal-content">		
+			<button onclick="$(this).parents('.modal').modal('close')" class="modal-close-button">X</button>		
+			<div class="card-panel teal accent-4">				
+				<div class="flow-text titolo"><small style="font-weight:normal">Prof. </small>Maurizio Dabbicco</div>
+				<div class="imgBox"><img class="circle z-depth-4" src="img/Relatori/MaD.jpg" alt="Maurizio Dabbicco"></div> 
+				<p class="modal-header-text">
+					I suoi interessi di ricerca comprendono <strong>ottica non lineare nei semiconduttori</strong> e <strong>ottica quantistica</strong>, 
+					lo sviluppo di nuove tecniche ottiche per la <strong>caratterizzazione dei materiali optoelettronici</strong>, applicazioni dell'<strong>optical feedback interferometry</strong>.
+					E' stato coautore di circa 80 pubblicazioni e 5 richieste di brevetto.
+				</p>
+				<div class="divider"></div>
+				  
+				  <p class="modal-body-text">				
+					Maurizio Dabbicco ha ottenuto la laurea (1989) e il dottorato (1993) in Fisica dall'Universit&agrave; di Bari. Nel 1994-1995 &egrave; stato research assistant presso il laboratorio Clarendon, Universit&agrave; di Oxford, UK. 
+					Nel 1996 &egrave; entrato a far parte del dipartimento di Fisica presso l'Universit&agrave; di Bari ed &egrave; diventato professore di fisica sperimentale nel 2005.
+					Dal 2015 &egrave; coordinatore del corso di laurea in Scienza dei Materiali presso l'Universit&agrave; di Bari.
+					Attualmente &egrave; referee di alcune riviste di ottica e valutatore di progetti del Ministero dell'Istruzione (MIUR).
+					La sua attivit&agrave; professionale comprende l'organizzazione di due workshop internazionali, la coordinazione come chief investigator di alcuni progetti nazionali ed internazionali anche in collaborazione con industrie di spicco. 
+					&Egrave; membro associato dell'Istituto di Fotonica e Nanotecnologie del Consiglio Nazionele delle Ricerche (CNR).
+				</p>
+			</div>			
+		</div>
+	  </div>
+	  
+	  <div id="relatoreSP" class="modal">
+		<div class="modal-content">		
+			<button onclick="$(this).parents('.modal').modal('close')" class="modal-close-button">X</button>		
+			<div class="card-panel teal accent-4">				
+				<div class="flow-text titolo"><small style="font-weight:normal">Prof. </small>Saverio Pascazio</div>
+				<div class="imgBox"><img class="circle z-depth-4" src="img/Relatori/SP.jpg" alt="Saverio Pascazio"></div> 
+				<p class="modal-header-text">
+					La sua attivit&agrave; scientifica comprende: Meccanica Quantistica, Entanglement, Decoerenza, Informazione Quantistica, Teoria dei Campi,
+					Meccanica Statistica, Complessit&agrave;, Comportamento Temporale dei Sistemi Quantistici, Irreversibilit&agrave; e Fluttuazioni
+					Statistiche, Transizioni di Fase, Fisica dei Neutroni, Fisica Atomica e Molecolare, Ottica Quantistica.
+					E' stato autore di circa 200 articoli di ricerca e 2 libri.
+				</p>
+				<div class="divider"></div>
+				  
+				  <p class="modal-body-text">				
+					Saverio Pascazio si è laureato in Fisica all'Universit&agrave; di Bari. Ha ottenuto un postdoc presso la Free University of Brussels, Belgio e presso la Waseda University, Tokyo, Giappone.
+					Attualmente &egrave; professore di Fisica Teorica presso l'Universit&agrave; di Bari.
+					E' stato “Guest Professor”, Waseda University, Tokyo, Giappone (1991-2016); “Gastprofessor”, University of Innsbruck, Austria (1995); “Invited Professor”, Technical University, Praga, Repubblica Ceca (2010);
+					“Invited Professor”, Imperial College, Londra, Regno Unito (2013); “Invited Professor”, Sharif University, Tehran, Iran (2014); “Invited Professor”, SISSA, Trieste, Italia (2015).
+					E' editore di 5 riviste internazionali di Fisica; "Referee" per circa 30 riviste internazionali di Fisica;
+					"Panelist" per l'Unione Europea; "Section Chair" per il Natural Sciences and Engineering Research Council (NSERC) Canadese;
+					"General Chair" della Optical Society of America (OSA); "Referee" per Universit&agrave;, Enti di Ricerca e
+					Ministeri in Italia, Austria, Francia, Gran Bretagna, Irlanda, Israele, Repubblica Ceca, Sud Africa, Canada e Stati Uniti.
+				</p>
+			</div>			
+		</div>
+	  </div>
+	  
+	  <div id="relatoreLG" class="modal">
+		<div class="modal-content">		
+			<button onclick="$(this).parents('.modal').modal('close')" class="modal-close-button">X</button>		
+			<div class="card-panel teal accent-4">				
+				<div class="flow-text titolo"><small style="font-weight:normal">Prof. </small>Luciano Guerriero</div>
+				<div class="imgBox"><img class="circle z-depth-4" src="img/Relatori/LG.jpg" alt="Luciano Guerriero"></div> 
+				<p class="modal-header-text">					
+					Attualmente collabora allo sviluppo di nuovi <strong>strumenti di analisi di immagini ottiche e radar da satellite</strong> per lo <strong>studio di fenomeni planetari</strong> ed <strong>applicazioni al monitoraggio ambientale</strong>. 
+				</p>
+				<div class="divider"></div>
+				  
+				  <p class="modal-body-text">				
+					Luciano Guerriero si &egrave; laureato in Fisica nel 1952  presso l’Universit&agrave; di Padova, dal 1967 ha ricoperto cattedra di Fisica Generale dell’Universit&agrave; di Bari e poi quella del Politecnico di  Bari. Dal 2005 &egrave; Professore Emerito.
+					Dal 1952 al 1988 ha svolto ricerche nel campo della Fisica Subnucleare delle alte energie nel Laboratorio per Raggi Cosmici dell’Universit&agrave; di Padova, sulla Marmolada, e poi presso il Massachussets Institute of Technology (MIT) e presso gli acceleratori nei laboratori di Brookhaven (New York) e del Fermilab a Batavia (Illinois) ha sviluppato vari rivelatori a traccia per la determinazione dei numeri quantici di nuove particelle e risonanze.
+					E’ stato per pi&ugrave; mandati direttore del dipartimento di Fisica ed ha ricoperto vari incarichi alla direzione di strutture scientifiche e di ricerca nazionali quali l’INFN, come Vice Presidente, ed il CNR,  come direttore dell’Istituto per l’Elaborazione di Segnali e Immagini a Bari e Commissario Straordinario del Centro Nazionale Universitario per il Calcolo Elettronico (CNUCE) a Pisa. 
+					Dal 1980 al 1993 ha avuto la responsabilit&agrave; di tutte le attivit&agrave; spaziali italiane. Dal 1980 al 1988 come direttore del Piano Spaziale Nazionale e poi, dal 1988 al 1993, come primo presidente dell’Agenzia Spaziale Italiana.
+					Attualmente &egrave; responsabile (CEO)  dello Spin-off GAPsrl (Geophysical Applications Processing) del Politecnico di Bari e coordinatore scientifico del Master in Tecnologie del Telerilevamento Spaziale.
+				</p>
+			</div>			
+		</div>
+	  </div>
+	  
+	  <div id="relatoreRB" class="modal">
+		<div class="modal-content">		
+			<button onclick="$(this).parents('.modal').modal('close')" class="modal-close-button">X</button>		
+			<div class="card-panel teal accent-4">				
+				<div class="flow-text titolo"><small style="font-weight:normal">Prof. </small>Roberto Bellotti</div>
+				<div class="imgBox"><img class="circle z-depth-4" src="img/Relatori/RB.jpg" alt="Roberto Bellotti"></div> 				
+				<p class="modal-header-text">	
+					I suoi interessi scientifici riguardano l’<strong>astrofisica sperimentale</strong> e le applicazioni dei metodi di <strong>machine learning per l’elaborazione di segnali ed immagini della medicina e dell’economia</strong>.									 
+				</p>
+				<div class="divider"></div>
+				  
+				  <p class="modal-body-text">				
+					Roberto Bellotti &egrave; professore di Fisica dell’Universit&agrave; degli Studi di Bari "Aldo Moro". Con l’apparato sperimentale PAMELA, trasportato nello spazio da un satellite russo, ha partecipato alla scoperta di positroni di altissima energia nei raggi cosmici.
+					Nel settore della medicina conduce ricerca finalizzate allo sviluppo di sistemi di "computer aided detection" per l’analisi quantitativa di immagini acquisite a fini diagnostici nell’ambito di patologie neurologiche e psichiatriche.
+					Dal 2010 è Quantitative Analysist Consultant del Department of Economic and Social Affairs Division for Public Administration and Development Management - United Nations.
+				</p>
+			</div>			
+		</div>
+	  </div>
+	  
+	  <div id="relatoreNG" class="modal">
+		<div class="modal-content">		
+			<button onclick="$(this).parents('.modal').modal('close')" class="modal-close-button">X</button>		
+			<div class="card-panel teal accent-4">				
+				<div class="flow-text titolo"><small style="font-weight:normal">Prof. </small>Nicola Giglietto</div>
+				<div class="imgBox"><img class="circle z-depth-4" src="img/Relatori/NG.jpg" alt="Nicola Giglietto"></div> 				
+				<p class="modal-header-text">					
+					 Si &egrave; occupato dall’inizio della sua attivit&agrave; di ricerca, dei temi di fisica sperimentale riguardanti lo <strong>studio dei raggi cosmici e raggi gamma</strong>.					
+					 Ha approfondito e curato le tematiche relative allo <strong>sviluppo di rivelatori di particelle</strong> da impiegarsi in fisica delle alte energie con rivelatori sotterranei, nello spazio o sulla superficie, occupandosi anche della progettazione e calibrazione su fasci di particelle di rivelatori.
+				</p>
+				<div class="divider"></div>
+				  
+				  <p class="modal-body-text">				
+					Nicola Giglietto consegue la laurea in FISICA nel 1984 con il massimo dei voti, presso l’Universit&agrave; degli Studi di Bari.
+					Dal 1985 &egrave; associato alle attivit&egrave; scientifiche dell’Istituto Nazionale di Fisica Nucleare (INFN) quale
+					collaboratore con il gruppo II della sezione INFN di Bari occupandosi di studi di fisica astroparticellare, con particolare attenzione allo studio dei raggi cosmici e alle loro tecniche sperimentali di
+					rivelazione. Nel 1986 &egrave; vincitore del concorso INFN per ricercatore di gruppo II presso la sezione di
+					Bari ricoprendone il ruolo dal 2/2/1987 al 31/10/1999 presso la sezione INFN di Bari. Nel 1998 &egrave;
+					vincitore del concorso nazionale a professori universitari di ruolo II fascia, settore B01A, fisica sperimentale, ora rinominato FIS/01, bando del 30/1/1996. Ricopre il ruolo di Professore Associato a
+					tempo pieno del Politecnico di Bari dal 1/11/1999, afferendo al Dipartimento Interateneo di Fisica
+					dell’Universit&agrave; di Bari e del Politecnico di Bari. Ha conseguito l’abilitazione nazionale a professore
+					di I fascia nel settore concorsuale 02/A1 valida dal 23/01/2014 al 23/1/2020. Dal novembre 2016 &egrave;
+					professore ordinario in Fisica Sperimentale, settore scientifico disciplinare FIS/01, presso il Politecnico
+					di Bari - Dipartimento Interateneo di Fisica.
+				</p>
+			</div>			
+		</div>
+	  </div>
+	  
+	  <div id="relatoreMP" class="modal">
+		<div class="modal-content">		
+			<button onclick="$(this).parents('.modal').modal('close')" class="modal-close-button">X</button>		
+			<div class="card-panel teal accent-4">				
+				<div class="flow-text titolo"><small style="font-weight:normal">Dott. </small>Marco Pappagallo</div>
+				<div class="imgBox"><img class="circle z-depth-4" src="img/Relatori/MP.jpg" alt="Marco Pappagallo"></div> 				
+				<p class="modal-header-text">	
+					Ha svolto attivit&agrave; di ricerca nel campo della fisica delle particelle elementari lavorando negli esperimenti BaBar (SLAC) e LHCb (CERN). Esperto di <strong>spettroscopia di stati esotici/standard</strong> e di <strong>analisi dati tramite la tecnica di Dalitz plot</strong>, &egrave; stato recentemente autore dell'osservazione di 5 nuovi barioni charmati. La sua produzione scientifica conta piu' di 700 pubblicazioni su riviste internazionali. 
+				</p>
+				<div class="divider"></div>
+				  
+				  <p class="modal-body-text">				
+					Marco Pappagallo consegue la laurea (2002) e il titolo di dottore (2006) di ricerca presso l'universit&agrave; degli studi di Bari.
+					Lavora dal 2005 al 2007 presso IPPP (Institute for Particle Physics Phenomenology), presso la Durahm University (UK).
+					Nel 2007-2011 &egrave; titolare di un assegno di ricerca presso l'universit&agrave; degli studi di Bari durante il quale ha ottenuto una similfellow presso il CERN.
+					Successivamente (2011-2015) lavora come ricercatore presso la University of Glasgow (UK).
+					Dal 2016 è ricercatore a tempo determinato (RTDA) presso l’Universit&agrave; di Bari come responsabile del progetto di ricerca “Affascinanti asimmetrie” nell’ambito di FutureInResearch finanziato dalla Regione Puglia.
+					&Egrave; referee di due riviste di settore.
+				</p>
+			</div>			
+		</div>
+	  </div>
+	   
+	  <div id="relatoreFG" class="modal">
+		<div class="modal-content">		
+			<button onclick="$(this).parents('.modal').modal('close')" class="modal-close-button">X</button>		
+			<div class="card-panel teal accent-4">				
+				<div class="flow-text titolo"><small style="font-weight:normal">Prof. </small>Francesco Giordano</div>
+				<div class="imgBox"><img class="circle z-depth-4" src="img/Relatori/FG.jpg" alt="Francesco Giordano"></div> 				
+				<p class="modal-header-text">	
+					La sua attivit&agrave; di ricerca &egrave; incentrata su tematiche attinenti la fisica sperimentale delle interazioni fondamentali con particolare riferimento alla <strong>progettazione, costruzione e test di rivelatori ed apparati satellitari e di superficie per fisica astroparticellare</strong>. I risultati della attivit&agrave; di ricerca sono stati inoltre presentati in circa 30 conferenze internazionali, di cui 9 in qualit&agrave; di invited speaker, e hanno portato ad oltre 200 pubblicazioni. 
+				</p>
+				<div class="divider"></div>
+				  
+				<p class="modal-body-text">	
+					Francesco Giordano si laurea in Fisica con il massimo dei voti (1998) e consegue il titolo di Dottore di Ricerca (2002) presso l'Universit&agrave; degli Studi di Bari, dove vince nel 2002 il concorso per un assegno di ricerca dal titolo "Studio e caratterizzazione spaziale del rivelatore per gamma dell'esperimento GLAST per ottimizzarne le risoluzioni angolari ed energetiche”.
+					Nel periodo 1999-2006 &egrave; titolare di una Associazione Scientifica presso l'INFN. A partire dal Luglio 2006 &egrave; Titolare di un Incarico di Ricerca presso l'INFN.
+					Dal 2006 &egrave; Ricercatore Universitario presso il Dipartimento Interateneo di Fisica "M. Merlin” dell'Universit&agrave; degli Studi di Bari, presso cui nell'Ottobre 2015 prende servizio come Professore Associato.
+					Nel 2013 consegue l'Abilitazione Scientifica Nazionale come professore di Prima Fascia per il Settore Concorsuale 02/A1 (Fisica Sperimentale delle Interazioni Fondamentali).
+					Referee di riviste di settore, ha anche coperto il ruolo di referente UniBa del progetto di ricerca del PON Apulia Space e coordinatore didattico per il progetto di formazione.
+					Attualmente responsabile locale della sigla di esperimento CTA dell’Istituto Nazionale di Fisica Nucleare della Seziona di Bari.
+				</p>
+			</div>			
+		</div>
+	  </div>
+	  
+	  <div id="relatoreEB" class="modal">
+		<div class="modal-content">		
+			<button onclick="$(this).parents('.modal').modal('close')" class="modal-close-button">X</button>		
+			<div class="card-panel teal accent-4">				
+				<div class="flow-text titolo"><small style="font-weight:normal">Dott.ssa </small>Elisabetta Bissaldi</div>
+				<div class="imgBox"><img class="circle z-depth-4" src="img/Relatori/EB.jpg" alt="Elisabetta Bissaldi"></div> 				
+				<p class="modal-header-text">	
+					La sua attivit&agrave; di ricerca comprende lo studio di sorgenti transienti extragalattiche (Gamma-Ray Burst) e lo sviluppo di rivelatori al silicio di nuova generazione (SiPM). &Egrave; membro di collaborazioni internazionali nell’ambito della Fisica astroparticellare, quali Fermi (NASA), CTA (Cherenkov Telescope Array) e HESS (High Energy Stereoscopic System).
+				</p>
+				<div class="divider"></div>
+				  
+				<p class="modal-body-text">	
+					Elisabetta Bissaldi ha conseguito la Laurea Specialistica in Astrofisica e Fisica Spaziale presso l’Universit&agrave; degli Studi di Trieste nel 2006 ed ha svolto il Dottorato di Ricerca presso il Max-Planck Institut for Extraterrestrial Physics sul tema Astrofisica delle Alte Energie, conseguendo il titolo di Dottore di Ricerca nel 2010 (Technische Universitaet Muenchen, Monaco di Baviera, Germania).
+					Ha ottenuto un postdoc presso l'Institut for Astro- and Particle Physics di Innsbruck (2010-2013) e presso L'Universit&agrave; degli Studi di Trieste (2013-2015).
+					Nel 2015 &egrave; stata ricercatrice presso l'Istituto Nazionale di Fisica Nucleare (INFN) di Bari.
+					Dal 2016 &egrave; ricercatrice presso il Politecnico di Bari ed &egrave; associata all’INFN.
+				</p>
+			</div>			
+		</div>
+	  </div>
+	  
+	  
+	  <div id="relatoreMDe" class="modal">
+		<div class="modal-content">		
+			<button onclick="$(this).parents('.modal').modal('close')" class="modal-close-button">X</button>		
+			<div class="card-panel teal accent-4">				
+				<div class="flow-text titolo"><small style="font-weight:normal">Prof. </small>Mauro De Palma</div>
+				<div class="imgBox"><img class="circle z-depth-4" src="img/Relatori/MDe.jpg" alt="Mauro De Palma"></div> 				
+				<p class="modal-header-text">	
+					Ha sempre svolto attivit&agrave; di ricerca nell’ambito della fisica sperimentale delle particelle elementari e delle interazioni fondamentali, partecipando, con responsabilit&agrave; operative e gestionali, a diversi esperimenti presso il CERN in collaborazioni internazionali. Particolare impegno &egrave; stato dedicato alla <strong>verifica sperimentale del Modello Standard con gli esperimenti ALEPH e CMS</strong>, contribuendo anche alla scoperta del bosone di Higgs. Ha inoltre svolto un ruolo importante nel portare in sede la conoscenza e la <strong>tecnologia dei rivelatori a silicio</strong>, realizzando anche un laboratorio all’avanguardia per la loro caratterizzazione e per la successiva realizzazione di apparati traccianti.
+					&Egrave; co-autore di circa 800 pubblicazioni (data base WoS, h-index 78) su riviste internazionali ed ha presentato i risultati delle ricerche in numerosi congressi nazionali e internazionali
+				</p>
+				<div class="divider"></div>				  
+				<p class="modal-body-text">	
+					Mauro De Plama si &egrave; laureato in Ottobre 1977, &egrave; divenuto Professore Associato nel 1992 e Professore Ordinario (FIS01) presso l’Universit&agrave; degli Studi di Bari nel 2001. A ricoperto diversi incarichi di servizio e responsabilit&agrave; organizzative per conto del MIUR, dell’Universit&agrave; di Bari e dell’INFN. Attualmente &egrave; membro del CMS Career Committee, membro della Commissione per l’Abilitazione Scientifica Nazionale del Settore Concorsuale 02/A1 - Fisica sperimentale delle interazioni fondamentali, e Direttore dalla Sezione INFN di Bari.
+				</p>
+			</div>			
+		</div>
+	  </div>
+	  <div id="relatoreSN" class="modal">
+		<div class="modal-content">		
+			<button onclick="$(this).parents('.modal').modal('close')" class="modal-close-button">X</button>		
+			<div class="card-panel teal accent-4">				
+				<div class="flow-text titolo"><small style="font-weight:normal">Prof. </small>Salvatore Nuzzo</div>
+				<div class="imgBox"><img class="circle z-depth-4" src="img/Relatori/SN.jpg" alt="Salvatore Nuzzo"></div> 				
+				<p class="modal-header-text">	
+					Ha svolto la sua attivit&agrave; di  ricerca nell’ambito  sperimentale  della  Fisica  delle  Particelle  Elementari  con  la  partecipazione  a  numerosi  esperimenti  agli  acceleratori  del  CERN
+					che hanno avuto, fra i risultati di maggior rilievo, la  <strong>prima  osservazione della produzione  e  del  decadimento  del  barione  &Sigma;<sup>+</sup><sub>c</sub></strong>,  la <strong>prima  osservazione  “diretta”  di  particelle  con  quark  beauty</strong>,  la  <strong>determinazione  del  numero  di  famiglie  di  neutrini</strong>,  la  <strong>misura precisa delle masse della Z<sup>0</sup> e delle W<sup>±</sup></strong>, <strong>la scoperta del Bosone di Higgs</strong>.
+					Ha al suo attivo pubblicazioni su riviste internazionali a elevato impatto: 980.
+				</p>
+				<div class="divider"></div>
+				  
+				<p class="modal-body-text">	
+					Salvatore Nuzzo si laurea in Fisica presso l’Universit&agrave; degli Studi di Bari.
+					Nel 1987 &egrave; diventato Professore Associato di Fisica Generale e nel 2001 Professore Ordinario di Fisica (Fis01).
+					&EGrave;’ stato rappresentante dei Ricercatori Infn, Coordinatore di Gruppo 1 e membro della Commissione scientifica Nazionale 1 INFN, Responsabile Locale di CMS, Referee degli esperimenti ATLAS, L3, e NA48, membro della Giunta di Dipartimento, Coordinatore del Dottorato in Fisica.
+					&EGrave; attualmente Direttore del Dipartimento, Coordinatore del Seminario Nazionale di Fisica Nucleare e Subnucleare di Otranto, membro dell’Accademia Pugliese delle Scienze.
+				</p>
+			</div>			
+		</div>
+	  </div>
+	  <div id="relatoreDD" class="modal">
+		<div class="modal-content">		
+			<button onclick="$(this).parents('.modal').modal('close')" class="modal-close-button">X</button>		
+			<div class="card-panel teal accent-4">				
+				<div class="flow-text titolo"><small style="font-weight:normal">Prof. </small>Domenico Di Bari</div>
+				<div class="imgBox"><img class="circle z-depth-4" src="img/Relatori/DD.jpg" alt="Mauro De Palma"></div> 				
+				<p class="modal-header-text">	
+					La sua attivit&agrave; di ricerca si &egrave; rivolta alla <strong>fotorivelazione della radiazione Cherenkov mediante rivelatori RICH</strong> e alla definizione ed all’<strong>ottimizzazione dei criteri di riconoscimento delle immagini generate dai fotoni della radiazione Cherenkov</strong>. Ha partecipato ha pi&ugrave; di 20 Conferenze Internazionali con presentazione orale e proceedings. Ha al suo attivo circa 160 pubblicazioni su riviste internazionali referate. 
+				</p>
+				<div class="divider"></div>
+				  
+				<p class="modal-body-text">	
+					Domenico Di Bari consegue la laurea in Fisica (1989) con voti 110/110 e lode e il dottorato di ricerca (1995) presso l’Universit&agrave; degli Studi di Bari.
+					Nel 1994 vince il concorso pubblico come ricercatore presso l’Universit&agrave; degli Studi di Bari, dove nel 2004 viene assunto in qualit&agrave; di Professore di II fascia nel settore FIS/01 – Fisica Sperimentale.
+					Dal 2009 &egrave; coordinatore del Gruppo III (Fisica Nucleare) dell’Istituto Nazionale di Fisica Nucleare, sezione di Bari.
+					Dal 2010 &egrave; responsabile del Tier2-Alice della sezione di Bari.
+					Il prof. Di Bari ha inoltre condotto attivit&agrave; di formazione e divulgazione scientifica, partecipando attivamente sia come promotore sia come relatore o docente guida.
+				</p>
+			</div>			
+		</div>
+	  </div>
+ </div>
+ 
+  <!--   Cards dei talk  -->
+ <div id="TalkCards">	 
+	 <div id="talkMP" class="modal">
+		<div class="modal-content">		
+			<button onclick="$(this).parents('.modal').modal('close')" class="modal-close-button">X</button>		
+			<div class="card-panel teal accent-4">				
+				<div class="flow-text titolo">Lo zoo delle particelle si popola di cinque nuovi barioni</div>				
+				<p class="modal-header-text">	
+					<small style="font-weight:normal">Dott. </small>Marco Pappagallo
+				</p>
+				<div class="center white-text">Abstract</div>
+				<div class="divider"></div>				  
+				  <p class="modal-body-text">				
+					Dopo la scoperta di due pentaquark nel 2015, cinque nuovi barioni sono stati osservati nello spettro di massa Xic+ K- .
+					Il loro numero e le loro propriet&agrave;, del tutto inaspettate, stanno mettendo a dura prova la nostra conoscenza della cromodinamica quantistica (QCD) a tal punto da fare ipotizzare che qualcuno di essi non sia un barione standard (composto da tre quark) ma bens&igrave; un pentaquark.
+				</p>
+			</div>			
+		</div>
+	  </div>
+	  
+	  <div id="talkMaD" class="modal">
+		<div class="modal-content">		
+			<button onclick="$(this).parents('.modal').modal('close')" class="modal-close-button">X</button>		
+			<div class="card-panel teal accent-4">				
+				<div class="flow-text titolo">MAN - Materiali Avanzati e Nanotecnologie (per l’uomo)</div>				
+				<p class="modal-header-text">	
+					<small style="font-weight:normal">Prof. </small>Maurizio Dabbicco
+				</p>
+				<div class="center white-text">Abstract</div>
+				<div class="divider"></div>				  
+				  <p class="modal-body-text">				
+					I materiali avanzati e le nanotecnologie, insieme alla fotonica, sono tre delle sei Key Enabling Technolgies che il programma H-2020 dell’Unione Europea ha scelto come motore dello sviluppo tecnologico (e scientifico) nel futuro a medio termine dell’Europa.
+					Tra le tante correlazioni esistenti tra queste KET, verranno illustrate quelle pi&ugrave; rilevanti per le attivit&agrave; di ricerca in UniBA.
+				</p>
+			</div>			
+		</div>
+	  </div>
+	  
+	  <div id="talkNG" class="modal">
+		<div class="modal-content">		
+			<button onclick="$(this).parents('.modal').modal('close')" class="modal-close-button">X</button>		
+			<div class="card-panel teal accent-4">				
+				<div class="flow-text titolo">Astronomia Gamma con i Cherenkov Telescope Arrays</div>				
+				<p class="modal-header-text">	
+					<small style="font-weight:normal">Prof. </small>Nicola Giglietto
+				</p>
+				<div class="center white-text">Abstract</div>
+				<div class="divider"></div>				  
+				  <p class="modal-body-text">	
+					Nella presentazione saranno mostrati gli elementi fondamentali per capire la fisica dei raggi
+					gamma di alta energia e le potenzialit&agrave; connesse all’uso di telescopi a terra, basati sulla tecnica Cherenkov.<br>
+					La fisica dei raggi gamma, come delineato dai telescopi su satellite quale l’esperimento FERMI,
+					permette l’identificazione e la catalogazione di potenti sorgenti di altissime energie quali AGN,
+					SNR e pulsar. Lo studio alle energie dei fotoni del TeV, possibile solo da Terra con i telescopi
+					Cherenkov , permette di comprendere meglio i meccanismi di produzione di eventi di alta energia e i meccanismi di propagazione verso di noi ed evidenziare eventuali contributi dovuti ad
+					esempio alla materia oscura. La rassegna si completa con una descrizione del progetto CTA e del suo programma scientifico.				  
+				</p>
+			</div>			
+		</div>
+	  </div>
+	  
+	  <div id="talkSP" class="modal">
+		<div class="modal-content">		
+			<button onclick="$(this).parents('.modal').modal('close')" class="modal-close-button">X</button>		
+			<div class="card-panel teal accent-4">				
+				<div class="flow-text titolo">La Propagazione delle Onde</div>				
+				<p class="modal-header-text">	
+					<small style="font-weight:normal">Prof. </small>Saverio Pascazio
+				</p>
+				<div class="center white-text">Abstract</div>
+				<div class="divider"></div>				  
+				  <p class="modal-body-text">	
+					Le onde si propagano in modo molto diverso in 2 ed in 3 dimensioni. In particolare, il principio
+					di Huygens, secondo cui ogni punto di un fronte d’onda &egrave; sorgente di onde secondarie, &egrave; valido
+					in 3 dimensioni, ma non in 2. Analizzeremo il meccanismo di propagazione delle onde e ne discuteremo le propriet&agrave;, soffermandoci su problematiche molto attuali.				  
+				</p>
+			</div>			
+		</div>
+	  </div>
+	  
+	  <div id="talkLG" class="modal">
+		<div class="modal-content">		
+			<button onclick="$(this).parents('.modal').modal('close')" class="modal-close-button">X</button>		
+			<div class="card-panel teal accent-4">				
+				<div class="flow-text titolo">Osservazioni dallo Spazio per Clima, Ambiente e Territorio</div>				
+				<p class="modal-header-text">	
+					<small style="font-weight:normal">Prof. </small>Luciano Guerriero
+				</p>
+				<div class="center white-text">Abstract</div>
+				<div class="divider"></div>				  
+				  <p class="modal-body-text">	
+					Cinquant’anni di attivit&agrave; spaziali hanno contribuito in modo essenziale alla conoscenza della dinamica di molti fenomeni che riguardano la dinamica del nostro pianeta. 
+					La misura sinottica di molti parametri fisici relativi all’atmosfera, agli oceani ed alle terre emerse permettono lo sviluppo di modelli sempre pi&ugrave; accurati di fenomeni globali da cui dipendono
+					l’evoluzione del Clima, le previsioni del riscaldamento globale e la previsione meteo e di
+					altri fenomeni catastrofici. Nel contempo, misure dallo Spazio sempre pi&ugrave; continue e dettagliate su scala locale consentono il monitoraggio di fenomeni relativi all’evoluzione del
+					territorio per cause naturali ed antropiche e contribuiscono alla realizzazione di sistemi per
+					il contrasto al degrado ambientale e alla prevenzione di disastri naturali. &Egrave; evidente la natura tipicamente interdisciplinare delle attivit&agrave; spaziali in cui anche le competenze del laureato in Fisica hanno un ruolo fondamentale.
+				</p>
+			</div>			
+		</div>
+	  </div>
+</div>
+ 
+ 	<!-- Social button -->
+	<div class="fixed-action-btn horizontal" id="SocialButton" >
+		<a class="btn-floating btn-large transparent">
+		  <i class="large material-icons blue-grey darken-1">share</i>
+		</a>
+		<ul> <!-- icons are from https://www.iconfinder.com/iconsets/social-40 -->
+		  <li><a class="btn-floating" style="background:none;" href="https://www.youtube.com/channel/UCOJQMQgy-e2Off8XNsqTEeA"><img src='img/yt.png' style="height:100%;" width="40" height="40"></a></li>
+		  <li><a class="btn-floating" style="background:none;" href="https://www.instagram.com/aisfbari/"><img src='img/in.png' style="height:100%;" width="40" height="40"></a></li>
+		  <li><a class="btn-floating" style="background:none;" href="https://twitter.com/aisf_bari"><img src='img/tw.png' style="height:100%;" width="40" height="40"></a></li>
+		  <li><a class="btn-floating" style="background:none;" href="https://www.facebook.com/AISF-Bari-419162114940421/"><img src='img/fb.png' style="height:100%;" width="40" height="40"></a></li>
+		</ul>
+	</div>
+	
+	<footer class="page-footer" id="footer">
+		
+		<div id="sponsorLogoBox" class="center scrollspy">		
+			<h5 class="white-text" style="padding-bottom:15px;">Sponsors e Partners</h5>
+			<div class="sponsorLogoContainer"><img src="img/sponsor/coop3.0.png" width="150" height="93"></div>
+			<div class="sponsorLogoContainer"><img src="img/sponsor/cook.png" width="150" height="150"></div>
+			<div class="sponsorLogoContainer"><img src="img/sponsor/dipa.png" width="150" height="119"></div>
+			<div class="sponsorLogoContainer"><img src="img/sponsor/infn.png" width="150" height="84"></div>
+			<div class="sponsorLogoContainer"><img src="img/sponsor/laterza.png" width="150" height="144"></div>			
+		</div>
+			
+						
+								
+		
+		<div class="container">
+			<div class="row">
+				<div class="col s12 m8" id="AISFinfo">
+					<a href="https://ai-sf.it/" target="_blank"><h5 class="white-text center">Associazione Italiana Studenti di Fisica</h5></a>
+					<p class="grey-text text-lighten-4 center" style="text-align:justify;">L'Associazione Italiana Studenti di Fisica (AISF) è un'organizzazione con finalità educative 
+					e senza fine di lucro che ambisce a riunire tutti gli studenti di fisica d'Italia. Conta più di 500 membri e 11 Comitati Locali; 
+					è Comitato Nazionale dell'International Association of Physics Students (IAPS).
+					</p>
+				</div>
+				<div class="col s12 m4">
+					<h5 class="white-text center">Contact</h5>
+					<ul class="center">
+						  <li><a class="white-text" href="mailto:presidente&#64;&#97;&#105;&#45;&#115;&#102;&#46;&#105;&#116;">Presidente</a></li>
+						  <li><a class="white-text" href="mailto:esecutivo&#64;&#97;&#105;&#45;&#115;&#102;&#46;&#105;&#116;">Esecutivo</a></li>
+					</ul>
+				</div>				
+			</div>
+		</div>
+		<div class="footer-copyright">	
+					Realizzato con <a href="https://materializecss.com">Materialize</a> da Carlo Bevilacqua, Simona Rossini e Alessandra Costantino.			
+		</div>	
+	</footer><!--  Scripts-->
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+	
+	<script>
+	//inizializza scrollspy per uno scorrimento fluido degli anchor links
+	$(document).ready(function(){
+		$('.scrollspy').scrollSpy();
+		});
+	//verifica se si è raggiunta la sezione Sponsor durante lo scroll
+	</script>
+	<script type="text/javascript">
+	
+	function adjustCarouselHeight(animDur)
+	{
+		//default value
+		animDur = typeof animDur == 'undefined' ? 350 : animDur;
+		var h = 220;
+		$("#ProgrammaCarousel .carousel-item").each(function(){ 
+			if ($(this).css("z-index")==0)
+			{
+				h = $(this).children().outerHeight(true);				
+			}
+		});
+		$("#ProgrammaCarousel").animate({height: h},animDur);
+	}
+	function afterCarouselChange()
+	{
+			window.setTimeout( 
+				function() {
+								if (refreshProgrammaCarouselZindices())
+								{
+									adjustCarouselHeight(500);	
+								}
+							}, 300);
+	}
+	
+	//return true if indices changed from last call
+	function refreshProgrammaCarouselZindices()
+	{
+		var res = false;
+		var tmpArray=[];
+		
+		$("#ProgrammaCarousel .carousel-item").each(
+		function(index){ 
+						var zIndex = $(this).css("z-index");
+						if (typeof ProgrammaCarouselZindices !== 'undefined')
+						{
+							if (ProgrammaCarouselZindices[index]!==zIndex)
+							{
+								res = true;
+							}
+						}
+						tmpArray[index]=zIndex;			
+			});
+		ProgrammaCarouselZindices = tmpArray;
+		
+		return res;
+	}
+	
+	$(document).ready(function()
+	{
+		//Inizializzazione
+		$('.carousel.carousel-slider').carousel({full_width: true});	
+		$('.modal').modal(); 
+		
+		
+		//abilita l'effetto a comparsa del box ringraziamenti	
+		$( window ).scroll(function() {$('#boxRingraziamenti').slideDown(800);});
+	
+		
+		//dà il nome agli indicatori
+		var indics = $('#ProgrammaCarousel .indicators').children();
+		$(indics[0]).append('<div class="indicator-tooltip">Gioved&igrave;</div>');
+		$(indics[1]).append('<div class="indicator-tooltip">Venerd&igrave;</div>');
+		$(indics[2]).append('<div class="indicator-tooltip">Sabato</div>');
+		$(indics[3]).append('<div class="indicator-tooltip">Domenica</div>');
+		
+		adjustCarouselHeight(0);
+		$('#ProgrammaCarousel .collapsible').collapsible({
+			onClose: function(el) { 			
+				var c = $("#ProgrammaCarousel");
+				var b = el.children('.collapsible-body');
+				c.animate({height: (c.height()-b.height()-16)}, {duration: 350, complete: function(){adjustCarouselHeight(20);}});	
+			
+				}, // Callback for Collapsible close
+			onOpen: function(el) { 
+					var c = $("#ProgrammaCarousel");
+					var b = el.children('.collapsible-body');
+					
+					var anim = function(c,b, start_c_height)
+					{
+						c.css('height', start_c_height+b.height());
+					};
+					
+					var start_c_height = c.height();
+					for (i=1; i<35;i++)
+					{
+						window.setTimeout(anim,10*i,c,b,start_c_height+16);
+					}
+					window.setTimeout(adjustCarouselHeight,360,20);
+					
+				} // Callback for Collapsible open
+			});	
+			
+			refreshProgrammaCarouselZindices();
+			var view = document.getElementById('ProgrammaCarousel');
+			if (typeof window.ontouchstart !== 'undefined') {
+				view.addEventListener('touchend', afterCarouselChange);
+			}
+			view.addEventListener('mouseup', afterCarouselChange);
+			window.addEventListener('resize', adjustCarouselHeight);
+        
+	} );	
+	
+	</script>
+  </body>
+</html>

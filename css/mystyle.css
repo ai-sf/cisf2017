@@ -1,0 +1,60 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+* { 
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+   box-sizing: border-box; 
+}
+@media only screen and (min-width: 992px){
+	.valign-wrapper-on-large
+	{ display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: center;
+    -ms-flex-align: center;
+	align-items: center;}}
+#navbar, #footer
+{
+	/*blue-grey.darken-3*/
+	background-color: #37474f;
+}
+a
+{
+	color:#00796b;
+}
+.pageTitle
+{
+	color:#00bfa5;
+	padding-top:4%;
+	padding-bottom:2%;
+	font-size:2.3em;
+}
+.pageSubtitleDescription
+{
+	padding-top:0.5%!important;
+	padding-bottom:5.2%!important;
+	text-align: center; 
+	font-size:1.2em;
+}
+.sponsorLogoContainer {margin-left:10%;margin-right:10%;margin-bottom:10px;vertical-align:middle; display:inline-block;}
+.sponsorLogoContainer img{width:130px;height:auto;}
+#sponsorLogoBox{width:100%;border:1.5px;padding-top:1%;padding-bottom:2.5%;margin-bottom:1%;background:rgba(0,0,0,0.2)}
+
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+/* Archive: the sponsors band is now the first element of the footer, so no top padding */
+footer.page-footer{padding-top:0}
